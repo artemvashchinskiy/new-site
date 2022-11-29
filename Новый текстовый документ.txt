@@ -1,0 +1,7 @@
+https://git-scm.com/
+git-proj1
+git init
+git config --global user.name "Artem"
+git config --list
+git config user.name
+git config user.email

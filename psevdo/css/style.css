@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.box {
+	/*background: url(../img/mkhjk.png) no-repeat center/100px;*/
+	width: 500px;
+	height: 500px;
+	margin: 50px auto;
+	border: 5px solid red;
+	background-color: red;
+	background-image: url("img/dubai.jpg");
+	background-size: 100px 100px;
+	/*cover, contain*/
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.container {
+	width: 500px;
+	height: 50px auto;
+}
+
+.box-item {
+	padding: 10px;
+	border: 1px;
+}
+
+.box-item::before {
+	content: attr(data-index);
+	content: "before";
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 20px;
+	background: red;
+	margin-right: 10px;
+	font-weight: bold;
+	color: white;
+}
+
+
+.box-item::after {
+	content: "after";
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: red;
+}
+
+.ppp {
+	margin: 150px;
+	font-size: 24px;
+	font-family: 'Oswald', sans-serif;
+}
+
+
