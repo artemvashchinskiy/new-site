@@ -1,3 +1,5 @@
+ebusines2010@gmail.com
+
 https://git-scm.com/
 git-proj1
 git init
@@ -9,5 +11,27 @@ git status
 git add .
 git status
 git commit -m "create base markup to index.html" 
-
-ebusines2010@gmail.com
+git status
+git commit -m "second commit"
+git commit -am "add main title"
+git status
+git log
+git config --global alias.l "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+git checkout
+git restore
+git l
+git checkout master
+git checkout .
+git add.
+git reset head .
+git commit -am "add post block"
+git branch
+git branch new
+git commit -am "add artickles block"
+git l
+git checkout master
+git l
+git branch master
+git checkout new
+git l --all
+git merge master
