@@ -5,3 +5,9 @@ git config --global user.name "Artem"
 git config --list
 git config user.name
 git config user.email
+git status
+git add .
+git status
+git commit -m "create base markup to index.html" 
+
+ebusines2010@gmail.com
